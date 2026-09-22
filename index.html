@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CETEC — Center of Excellence for Tactical and Emergency Care</title>
+<meta name="description" content="CETEC — центр тактичної та екстреної медицини. Навчаємо, аналізуємо, об'єднуємо. Сайт у розробці.">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="CETEC — Center of Excellence for Tactical and Emergency Care">
+<meta property="og:description" content="Центр тактичної та екстреної медицини. Навчаємо, аналізуємо, об'єднуємо.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://cetec.org.ua/">
+<meta property="og:image" content="https://cetec.org.ua/logo.png">
+<meta property="og:locale" content="uk_UA">
+<link rel="icon" href="logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --green:#318B66;
+  --green-dark:#007C4C;
+  --green-light:#E4F0EA;
+  --line:#C9DED3;
+  --ink:#15201B;
+  --muted:#5C6C63;
+  --ground:#F7FAF8;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;height:100%}
+body{
+  background:var(--ground);
+  color:var(--ink);
+  font-family:'Montserrat',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;
+  font-size:16px;
+  line-height:1.55;
+  display:flex;
+  flex-direction:column;
+  min-height:100%;
+  padding:0 16px;
+}
+main{
+  flex:1 0 auto;
+  width:100%;
+  max-width:720px;
+  margin:0 auto;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding-block:56px 40px;
+}
+.logo{width:132px;height:auto;margin-bottom:26px}
+.wordmark{
+  font-weight:700;
+  font-size:clamp(30px,7vw,42px);
+  letter-spacing:.2em;
+  margin:0 0 14px;
+  color:var(--ink);
+}
+.rule{width:64px;height:3px;background:var(--green);border-radius:2px;margin:0 0 18px}
+.slogan{
+  font-weight:700;
+  font-size:clamp(10px,2.6vw,12.5px);
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:var(--green-dark);
+  margin:0 0 30px;
+}
+.full{
+  font-weight:500;
+  font-size:clamp(15px,3.4vw,18px);
+  color:var(--ink);
+  margin:0 0 10px;
+  text-wrap:balance;
+}
+.lead{
+  color:var(--muted);
+  font-size:15.5px;
+  max-width:52ch;
+  margin:0 0 34px;
+  text-wrap:balance;
+}
+.dirs{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:10px;
+  margin:0 0 36px;
+}
+.dirs span{
+  border:1px solid var(--line);
+  background:#fff;
+  border-radius:99px;
+  padding:7px 16px;
+  font-size:13.5px;
+  font-weight:500;
+  color:var(--ink);
+}
+.status{
+  display:inline-flex;
+  align-items:center;
+  gap:9px;
+  background:var(--green-light);
+  border-left:3px solid var(--green);
+  border-radius:0 6px 6px 0;
+  padding:12px 18px;
+  font-size:14.5px;
+  font-weight:500;
+  color:var(--green-dark);
+  text-align:left;
+}
+.status .dot{
+  width:8px;height:8px;border-radius:50%;
+  background:var(--green);
+  flex:none;
+}
+.en{
+  color:var(--muted);
+  font-size:13.5px;
+  margin:26px 0 0;
+  max-width:48ch;
+}
+footer{
+  flex:none;
+  width:100%;
+  max-width:720px;
+  margin:0 auto;
+  border-top:1px solid var(--line);
+  padding-block:18px 26px;
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  flex-wrap:wrap;
+  font-size:12.5px;
+  color:var(--muted);
+}
+footer b{color:var(--green-dark);font-weight:600;letter-spacing:.04em}
+@media (max-width:460px){
+  .logo{width:104px}
+  footer{justify-content:center;text-align:center}
+}
+</style>
+</head>
+<body>
+
+<main>
+  <img class="logo" src="logo.png" alt="CETEC">
+  <h1 class="wordmark">CETEC</h1>
+  <div class="rule"></div>
+  <p class="slogan">Навчаємо · Аналізуємо · Об'єднуємо</p>
+
+  <p class="full">Center of Excellence for Tactical and Emergency Care</p>
+  <p class="lead">Центр тактичної та екстреної медицини: підготовка військових і цивільних медиків за міжнародними стандартами, аналіз бойового досвіду, співпраця з партнерськими організаціями.</p>
+
+  <div class="dirs">
+    <span>Education &amp; Training</span>
+    <span>Lessons Learned &amp; Analysis</span>
+    <span>Scientific &amp; Educational Events</span>
+  </div>
+
+  <div class="status"><span class="dot"></span> Сайт у розробці. Повна версія — найближчим часом.</div>
+
+  <p class="en">This site is under development. CETEC trains military and civilian medical personnel in tactical and emergency care to international standards.</p>
+</main>
+
+<footer>
+  <span><b>cetec.org.ua</b></span>
+  <span>© 2026 CETEC</span>
+</footer>
+
+</body>
+</html>
